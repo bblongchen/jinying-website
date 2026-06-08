@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "jinyingcircular.com"
+        }
+      ],
+      "destination": "https://www.jinyingcircular.com/$1",
+      "permanent": true
+    }
+  ]
+}
